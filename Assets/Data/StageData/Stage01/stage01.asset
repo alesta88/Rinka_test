@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcc426634dcec54c8e9cfe6dcf7ef81, type: 3}
+  m_Name: stage01
+  m_EditorClassIdentifier: 
+  StageSelectionImage: {fileID: 21300000, guid: bc7ae59e73adeb1469b1cf567beea802,
+    type: 3}
+  DifficultyIndicatorImage: {fileID: 21300000, guid: c5187bc278afea54aab9a9d21625ae1e,
+    type: 3}
+  IsShowAd: 0
+  Difficulty: 1
+  PointsPerOrb: 1
+  OrbClearCount: 10
+  Chunks:
+    array:
+    - {fileID: 11400000, guid: c48daf6d81c70f745aa59909a06cd524, type: 2}
+    - {fileID: 11400000, guid: db8cae3fb10578a408fcf512508c927b, type: 2}
+    - {fileID: 11400000, guid: 36cb17d41f9226148b51a842ac8327ca, type: 2}
+    - {fileID: 11400000, guid: 52f8d53df6d021a4bb3d3e4f10fb5023, type: 2}
+    - {fileID: 11400000, guid: a2234467d8406c44aa23f1dae6b893c3, type: 2}
