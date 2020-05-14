@@ -16,11 +16,11 @@ public static class BootLoader {
     public static void Init() {
         DG.Tweening.DOTween.Init( recycleAllByDefault: false, useSafeMode: false, logBehaviour: DG.Tweening.LogBehaviour.ErrorsOnly );
 #if !RELEASE || ENABLE_LOG
-        var lunarConsole = Resources.Load<GameObject>( "LunarConsole" );
-        GameObject.Instantiate( lunarConsole );
+        //var lunarConsole = Resources.Load<GameObject>( "LunarConsole" );
+        //GameObject.Instantiate( lunarConsole );
         var debug = DebugMainInfo.Instance;
 #endif
-        // ビルド場面のみ、初期化
+        // ビルド場面のみ、s初期化
         if ( !IsDebugScene() ) {
             GameMgr.Instance.InitValues();
         }
